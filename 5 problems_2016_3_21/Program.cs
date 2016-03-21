@@ -10,6 +10,18 @@ namespace _5_problems_2016_3_21
     {
         static void Main(string[] args)
         {
+            LengthOfChars stringLength = new LengthOfChars();
+            stringLength.GetLengthofGivenString();
+
+            ValueOfPi givePi = new ValueOfPi();
+            givePi.PiValue();
+
+            ComboMove getCombo = new ComboMove();
+            getCombo.Combo();
+
+            DancingString jumpingJack = new DancingString();
+            jumpingJack.JumpingJack();
+
         }
     }
 }
